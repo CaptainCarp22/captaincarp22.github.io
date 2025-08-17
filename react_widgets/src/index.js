@@ -108,7 +108,8 @@ function ToRender() {
       <Color colorName="Blue" col={bluVal} setCol={setBlu}/>
       <div style={{color:"rgb("+(255-redVal)+","+(255-greVal)+","+(255-bluVal)+")"}}>
         <code class="large">Background Hex: #{to2DigitHex(redVal)+to2DigitHex(greVal)+to2DigitHex(bluVal)}</code>
-        <code class="large">Text Hex Value: #{to2DigitHex(255-redVal)+to2DigitHex(255-greVal)+to2DigitHex(255-bluVal)}</code>
+        <code class="large" style={{margin:0}}>
+          Text Hex Value: #{to2DigitHex(255-redVal)+to2DigitHex(255-greVal)+to2DigitHex(255-bluVal)}</code>
       </div>
     </div>
 

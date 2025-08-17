@@ -27,6 +27,14 @@ html, body, #root {
     overflow: auto;
 }
 
+@media screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+}
+
 .large {
     display: block;
     margin: 12px 0;
